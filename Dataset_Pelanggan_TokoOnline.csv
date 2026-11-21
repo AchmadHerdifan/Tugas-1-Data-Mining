@@ -1,0 +1,125 @@
+ID_Pelanggan,Nama,Jenis_Kelamin,Usia,Kota,Pendapatan_Bulanan,Frekuensi_Belanja,Total_Belanja,Kategori_Produk,Metode_Pembayaran,Berat_Paket,Satuan_Berat,Tingkat_Kepuasan,Langganan_Premium
+CUST001,Citra Utami,Perempuan,40.0,Surabaya,12000000.0,9.0,2237000.0,Rumah Tangga,E-Wallet,4.3,kg,Tinggi,Tidak
+CUST002,Reza Kurniawan,Laki-laki,23.0,Malang,6700000.0,12.0,1748000.0,Kecantikan,Transfer Bank,0.9,kg,Tinggi,Tidak
+CUST003,Ilham Utami,Laki-laki,17.0,Sidoarjo,10400000.0,5.0,1249000.0, Rumah Tangga,transfer bank,1900.0,g,Sedang,Tidak
+CUST004,,Perempuan ,41.0,Malang,,6.0,,Rumah Tangga,COD,4.1,kg,Sedang,Tidak
+CUST005,Rizky Hakim,laki-laki,27.0,Malang,8600000.0,6.0,531000.0,Kecantikan,E-Wallet,400.0,g,Tinggi,Tidak
+CUST006,Hendra Susanto,laki-laki,,Surabaya,9000000.0,,758000.0, Rumah Tangga,,0.3,kg,Sedang,Ya
+CUST007,Fajar Santoso,Laki-laki,45.0,Surabaya,8700000.0,8.0,2092000.0,Fashion,E-Wallet,1200.0,g,,Tidak
+CUST008,Dimas Saputra,Laki-laki,39.0,sidoarjo ,9200000.0,6.0,829000.0,Fashion,Kartu Kredit,4.7,kg,Tinggi,Ya
+CUST009,Sari Nugroho,Perempuan,35.0,Surabaya,6000000.0,10.0,1748000.0,kecantikan ,Transfer Bank,2.6,kg,Sedang,Tidak
+CUST010,Reza Kurniawan,Laki-laki,39.0,Surabaya,120000000.0,,1864000.0,Kecantikan,Kartu Kredit,1.1,kg,Tinggi,ya
+CUST011,Nadia Permata,Perempuan,24.0,Malang,9700000.0,5.0,647000.0,Fashion,E-Wallet,1.3,kg,Tinggi,Ya
+CUST012,Fitri Rahmawati,Perempuan,36.0,Malang,6000000.0,11.0,1123000.0,Elektronik,Kartu Kredit,0.9,kg,Sedang,Ya
+CUST013,Putri Ramadhan,Perempuan ,39.0,Surabaya,8600000.0,,976000.0,Kecantikan,Transfer Bank,3.0,kg,Sedang,Yaa
+CUST014,Maya Susanto,Perempuan,36.0,Gresik,,8.0,1183000.0,Elektronik,transfer bank,1.2,kg,,Ya
+CUST015,Dina Hakim,P,28.0,Sidoarjoo,7700000.0,3.0,764000.0,Rumah Tangga,Transfer Bank,3.2,kg,Rendah,TIDAK
+CUST016,Arif Setiawan,Pria,17.0,Gresik,4900000.0,10.0,2055000.0,Rumah Tangga,Kartu Kredit,4.9,kg,Tinggi,Yaa
+CUST017,Rina Wijaya,Perempuan,34.0,Surabaya,9100000.0,10.0,2421000.0,elektronik,Transfer Bank,3.2,kg,Tinggi,YA
+CUST018,Dewi Susanto,Perempuan,31.0,Sidoarjo,14000000.0,7.0,811000.0,Makanan,Transfer Bank,1.4,kg,Tinggi,TIDAK
+CUST019,Andi Santoso,Laki-laki,27.0,,,2.0,-2000000.0,Makanan,E-Wallet,1.1,kg,Sedang,Tidak
+CUST020,Budi Kurniawan,Laki-laki,36.0,Malang,,6.0,515000.0,Makanan,COD,1.6,kg,Sedang,Tidak
+CUST021,Arif Kurniawan, Laki-laki,32.0,Surabaya,5500000.0,13.0,2784000.0,kecantikan ,E-wallet ,2.6,kg,Tinggi,Ya
+CUST022,Dewi Nugroho,Perempuan,32.0,MALANG,8300000.0,7.0,,Fashion,Transfer Bank,1.3,kg,Sedang,Tdk
+CUST023,Siti Utami,Perempuan,18.0,Surabaya,10100000.0,5.0,867000.0,Makanan,E-Wallet,300.0,g,,Ya
+CUST024,Dewi Pratama,Perempuan,18.0,Gresik,7300000.0,6.0,729000.0,Kecantikan,e-wallet,4.0,kg,Rendah,Ya
+CUST025,Fajar Santoso,,33.0,Gresik,7800000.0,11.0,1067000.0,Elektonik,E-Wallet,2.9,kg,Tinggi,Yaa
+CUST026,Wulan Setiawan,P,31.0,Sidoarjo,3800000.0,7.0,1506000.0,Rumah Tangga,Transfer Bank,3.7,kg,Sedang,Tidak
+CUST027,Dina Utami,Perempuan,31.0,malang,,13.0,2186000.0,Fashion,E-wallet ,2.2,kg,Tinggi,Yaa
+CUST028,Lestari Setiawan,,31.0,Sidoarjo,3400000.0,4.0,544000.0,Kecantikan,E-Wallet,1.4,kg,Rendah,Tidak
+CUST029,Hendra Permata,Laki-laki,33.0,Mojokerto,11700000.0,,2566000.0,Kecantikan,Transfer  Bank,3.2,kg,Tinggi,Ya
+CUST030,Lestari Hakim,Perempuan,30.0,Mojokerto,8500000.0,9.0,1573000.0,Kecantikan,e-wallet,2.3,kg,Tinggi,Ya
+CUST031,,Perempuan,31.0,,9100000.0,7.0,1731000.0,Kecantikan,COD,1.6,kg,Rendah,Tidak
+CUST032,Putri Wijaya,Perempuan,32.0,Mojokerto,7100000.0,6.0,1333000.0,Fashion,,4.3,kg,Sedang,ya
+CUST033,Ayu Susanto,Perempuan,37.0,SURABAYA,4300000.0,4.0,293000.0,Elektonik,COD,4.9,kg,Rendah,Tidak
+CUST034,Dimas Ramadhan,Pria,26.0,Gresik,7900000.0,2.0,,Elektronik,E-Wallet,4.0,kg,Rendah,tidak
+CUST035,Eko Setiawan,laki-laki,36.0,,92000000.0,5.0,40000000.0,Elektonik,Transfer Bank,4.5,kg,,tidak
+CUST036,Agus Setiawan,Laki-laki,35.0,Sidoarjo,5400000.0,6.0,822000.0,Makanan,Ewallet,3.1,kg,Sedang,ya
+CUST037,Agus Permata,Laki-laki,31.0,Sidoarjo,7600000.0,,1177000.0,Elektronik,,1.5,kg,Sedang,Ya
+CUST038,Reza Hakim,,,,7700000.0,-3.0,1353000.0,kecantikan ,E-Wallet,4.3,kg,Rendah,Tidak
+CUST039,Arif Hidayat,L,33.0,Surabaya,7100000.0,5.0,597000.0,Fashion,COD,3700.0,g,Tinggi,ya
+CUST040,Reza Permata, Laki-laki,37.0,MALANG,5800000.0,999.0,520000.0,Fashion,E-Wallet,1.0,kg,,Tidak
+CUST041,Anisa Lestari,Perempuan,21.0,Surabaya,5300000.0,8.0,1196000.0,Makanan,kartu kredit,4.9,kg,Rendah,Ya
+CUST042,Maya Wijaya,P,30.0,Gresik,7500000.0,11.0,2516000.0,Elektronik,Transfer Bank,4700.0,g,Tinggi,Ya
+CUST043,Reza Setiawan,Laki-laki,,Surabaya,10200000.0,8.0,2005000.0,Rumah Tangga,Transfer Bank,2.1,kg,Tinggi,ya
+CUST044,Rizky Rahmawati, Laki-laki,25.0,Sidoarjo,4000000.0,7.0,,Rumah Tangga,E-wallet ,2.4,kg,Rendah,Tidak
+CUST045,Rizky Ramadhan,Laki-laki,25.0,Surabaya,6100000.0,6.0,1266000.0,Makanan,Cod ,2200.0,g,,Tidak
+CUST046,Nadia Pratama,Perempuan,18.0,Gresik,7100000.0,7.0,736000.0,Fashion,COD,2.7,kg,Sedang,Tdk
+CUST047,Rina Setiawan,Perempuan,21.0,Surabaya,7200000.0,8.0,1570000.0,rumah tangga,Transfer Bank,1.6,kg,Sedang,tidak
+CUST048,Eko Lestari,Laki-laki,18.0,Sidoarjo,6200000.0,4.0,25000000.0,Kecantikan,Transfer Bank,1.1,kg,Rendah,Ya
+CUST049,Fajar Setiawan,,25.0,Surabaya,11700000.0,2.0,221000.0,kecantikan ,E-Wallet,4700.0,g,Rendah,tidak
+CUST050,Arif Kurniawan,Pria,26.0,Sidoarjoo,8400000.0,5.0,1288000.0,Makanan,,3.5,kg,Tinggi,Tidak
+CUST051,Siti Setiawan,Perempuan ,26.0,Gresik,,6.0,1285000.0,Kecantikan,Transfer Bank,4.9,kg,,Tidak
+CUST052,Yoga Saputra,L,33.0,Surabaya,3400000.0,3.0,407000.0,Rumah Tangga,Transfer  Bank,3.6,kg,Rendah,Tidak
+CUST053,Eko Nugroho,Laki-laki,28.0,malang,7100000.0,9.0,1041000.0,Fashion,COD,1.8,kg,Tinggi,YA
+CUST054,Taufik Pratama,Laki-laki,250.0,MALANG,,9.0,1227000.0,Fashion,e-wallet,4.1,kg,Tinggi,ya
+CUST055,Bayu Kurniawan,Laki-laki,24.0,Mojokerto,7900000.0,10.0,1344000.0,elektronik,Kartu Kredit,,kg,Sedang,Ya
+CUST056,Nadia Santoso,,21.0,Surabaya,2500000.0,6.0,687000.0,Kecantikan,e-wallet,5000.0,g,Rendah,Tidak
+CUST057,Hendra Pratama,Laki-laki,,MALANG,4500000.0,7.0,569000.0,Makanan,Transfer Bank,2.1,kg,Sedang,Tidak
+CUST058,Wahyu Permata,Laki-laki,28.0,Surabya,85000000.0,7.0,982000.0,Rumah Tangga,Cod ,2.3,kg,Sedang,Tidak
+CUST059,Intan Hidayat,Perempuan,310.0,mojokerto,9800000.0,7.0,679000.0,Makanan,transfer bank,3.5,kg,Tinggi,Ya
+CUST060,Arif Utami,Laki-laki,42.0,Surabaya,7800000.0,5.0,,kecantikan ,E-Wallet,,kg,Sedang,Tidak
+CUST061,Dina Setiawan,,42.0,Surabaya,,5.0,1195000.0,kecantikan ,Ewallet,2.4,kg,Tinggi,Tidak
+CUST062,Arif Hakim,Laki-laki,47.0,Surabaya,9900000.0,9.0,1996000.0,Elektonik,Transfer Bank,1.9,kg,Tinggi,Ya
+CUST063,,PEREMPUAN,20.0,Malang,10300000.0,7.0,1690000.0,Kecantikan,kartu kredit,0.4,kg,Sedang,Ya
+CUST064,Anisa Kurniawan,Perempuan,35.0,Sidoarjo,6000000.0,10.0,,Rumah Tangga,Transfer Bank,3100.0,g,Sedang,Tidak
+CUST065,Wulan Kurniawan,Perempuan,36.0,Mojokerto,8500000.0,3.0,427000.0,Rumah Tangga,,3.0,kg,Sedang,TIDAK
+CUST066,Dewi Pratama,Perempuan,34.0,Surabya,5400000.0,5.0,915000.0, Rumah Tangga,Transfer Bank,1.9,kg,Rendah,Tidak
+CUST067,Intan Setiawan,Perempuan ,47.0,Malang,5100000.0,1.0,216000.0,Makanan,E-Wallet,2.0,kg,Rendah,tidak
+CUST068,Rina Lestari,Perempuan,50.0,surabaya,8800000.0,4.0,1039000.0,Kecantikan,COD,0.5,kg,Sedang,Yaa
+CUST069,Dimas Utami,laki-laki,38.0,Surabaya,4400000.0,4.0,539000.0,Kecantikan,Transfer Bank,1.8,kg,Rendah,Ya
+CUST070,Fajar Permata,Laki-laki,35.0, Gresik,7900000.0,6.0,1455000.0,Elektronik,E-Wallet,3.8,kg,Sedang,Ya
+CUST071,Rizky Susanto,Laki-laki,21.0,Surabaya,8200000.0,4.0,880000.0,rumah tangga,E-Wallet,2.6,kg,Tinggi,Ya
+CUST072,Citra Nugroho,Perempuan,21.0,,9400000.0,8.0,1021000.0,Kecantikan,Transfer Bank,1.2,kg,Tinggi,Tidak
+CUST073,Maya Ramadhan,Perempuan,36.0,,5000000.0,8.0,1306000.0,Makanan,E-Wallet,0.9,kg,Sedang,Tidak
+CUST074,Maya Hakim,Perempuan ,29.0,Surabaya,8300000.0,5.0,674000.0, Rumah Tangga,kartu kredit,2600.0,g,Tinggi,tidak
+CUST075,Siti Hidayat,Perempuan,19.0,sidoarjo ,7200000.0,10.0,1161000.0,Makanan,COD,2.5,kg,,Ya
+CUST076,Hendra Setiawan, Laki-laki,29.0,SURABAYA,,7.0,1343000.0,Kecantikan,E-Wallet,2.5,kg,Sedang,Tidak
+CUST077,Ilham Nugroho,Laki-laki,33.0,surabaya,5900000.0,11.0,1987000.0,elektronik,Transfer  Bank,3.1,kg,Sedang,ya
+CUST078,Dina Lestari,Perempuan ,37.0,Mojokerto,5100000.0,3.0,229000.0,Elektronik,,1.9,kg,Rendah,Tidak
+CUST079,Wahyu Saputra,L,29.0,Sidoarjo,8600000.0,3.0,425000.0, Rumah Tangga,cod,2200.0,g,Tinggi,Ya
+CUST080,Ilham Nugroho,Laki-laki,28.0,Surabaya,5600000.0,6.0,829000.0,rumah tangga,cod,1.8,kg,Rendah,YA
+CUST081,Yoga Setiawan,Laki-laki,30.0,Malang,4700000.0,7.0,752000.0,Makanan,COD,3200.0,g,Rendah,Ya
+CUST082,Maya Rahmawati,Perempuan,31.0,Surabaya,9500000.0,6.0,1355000.0,Fashion,e-wallet,500.0,g,Sedang,Tidak
+CUST083,Rizky Pratama,laki-laki,21.0,Sidoarjo,8400000.0,7.0,874000.0,Elektronik,Transfer Bank,3.6,kg,Sedang,Ya
+CUST084,Budi Saputra,L,37.0,Surabaya,2500000.0,,596000.0,Elektronik,E-Wallet,4.1,kg,Rendah,Tidak
+CUST085,Fajar Susanto,Laki-laki,48.0,Gresik,5500000.0,5.0,31000000.0,Kecantikan,,,kg,Rendah,TIDAK
+CUST086,Dimas Hidayat,Laki-laki,37.0, Gresik,5100000.0,3.0,670000.0,Rumah Tangga,transfer bank,0.4,kg,Rendah,Tidak
+CUST087,Budi Pratama,L,18.0,Surabaya,8900000.0,5.0,589000.0,Fashion,E-Wallet,3.6,kg,Sedang,Tidak
+CUST088,Fitri Saputra,Perempuan,31.0,Malang,10700000.0,4.0,545000.0,Kecantikan,E-Wallet,,kg,Tinggi,tidak
+CUST089,Yoga Pratama,Laki-laki,17.0,Gresik,12000000.0,7.0,1066000.0,Makanan,Transfer Bank,3.8,kg,Sedang,Ya
+CUST090,Reza Kurniawan,Laki-laki,17.0, Gresik,9100000.0,6.0,903000.0,Fashion,Transfer Bank,1.0,kg,Sedang,Tidak
+CUST091,Siti Hakim,Perempuan ,35.0,Surabya,5100000.0,8.0,945000.0,Rumah Tangga,transfer bank,3.0,kg,Rendah,Ya
+CUST092,Fajar Kurniawan,Laki-laki,,SURABAYA,5000000.0,7.0,1302000.0,Makanan,,2.1,kg,Rendah,Ya
+CUST093,Budi Permata,L,25.0,Surabaya,5400000.0,9.0,1359000.0,Elektronik,E-Wallet,0.6,kg,Sedang,TIDAK
+CUST094,Rina Hidayat,Perempuan,17.0,Surabaya,8600000.0,5.0,465000.0, Rumah Tangga,E-Wallet,3.3,kg,Sedang,Ya
+CUST095,Sari Nugroho,P,,Surabaya,10300000.0,4.0,518000.0,Fashion,E-Wallet,2.7,kg,Rendah,Ya
+CUST096,Rizky Pratama,Pria,31.0,gresik,3300000.0,5.0,520000.0,Rumah Tangga,E-Wallet,4.1,kg,Sedang,tidak
+CUST097,Dimas Ramadhan,L,30.0,Surabaya,8800000.0,10.0,2304000.0,Fashion,transfer bank,2.0,kg,Tinggi,Ya
+CUST098,Ayu Rahmawati,PEREMPUAN,36.0,Gresik,9500000.0,6.0,671000.0,Elektronik,Ewallet,2.2,kg,Sedang,Ya
+CUST099,Dewi Wijaya,Perempuan,,surabaya,8200000.0,14.0,1396000.0,Makanan,Kartu Kredit,,kg,Sedang,Ya
+CUST100,Fitri Ramadhan,Perempuan,27.0,Gresik,14000000.0,,,Elektonik,COD,2.6,kg,Tinggi,ya
+CUST101,Taufik Permata,Laki-laki,34.0,Surabaya,8700000.0,11.0,1099000.0,Elektronik,E-Wallet,2.5,kg,Tinggi,Ya
+CUST102,Rina Rahmawati,Perempuan,29.0,Malang,7600000.0,-1.0,622000.0,Elektronik,cod,600.0,g,Rendah,Tidak
+CUST103,Rizky Hidayat,Laki-laki,26.0,Mojokerto,8800000.0,3.0,354000.0,Fashion,transfer bank,4800.0,g,Sedang,Tidak
+CUST104,Bayu Ramadhan,Laki-laki,28.0,Gresik,6300000.0,6.0,1107000.0,Elektronik,COD,4.2,kg,Sedang,Tidak
+CUST105,Dimas Saputra,Laki-laki,38.0,Surabaya,5100000.0,4.0,516000.0,Fashion,COD,4300.0,g,Rendah,Tidak
+CUST106,Budi Santoso,Laki-laki,22.0,Surabaya,8400000.0,7.0,681000.0,Fashion,E-Wallet,2.6,kg,Tinggi,Tidak
+CUST107,Lestari Susanto,Perempuan ,39.0,MALANG,10000000.0,8.0,1811000.0,Elektonik,kartu kredit,2.1,kg,Sedang,Tidak
+CUST108,Eko Santoso,Laki-laki,42.0,Sidoarjo,7000000.0,7.0,553000.0,elektronik,Transfer Bank,3.7,kg,Sedang,Tidak
+CUST109,Lestari Pratama,Perempuan,30.0,Surabya,9500000.0,10.0,2328000.0,Rumah Tangga,transfer bank,4.9,kg,Tinggi,Ya
+CUST110,Ilham Rahmawati,Laki-laki,32.0,Sidoarjo,6700000.0,5.0,1174000.0,kecantikan ,Kartu Kredit,3.9,kg,Sedang,tidak
+CUST111,,Laki-laki,0.0,Surabaya,11100000.0,8.0,1078000.0,kecantikan ,E-Wallet,0.7,kg,Tinggi,Yaa
+CUST112,Putri Saputra,Perempuan,49.0,Sidoarjo,8000000.0,5.0,852000.0,Makanan,Kartu Kredit,4.1,kg,Rendah,Tidak
+CUST113,Intan Permata,Wanita,38.0,Gresik,8700000.0,4.0,878000.0,Kecantikan,Ewallet,2.4,kg,Rendah,TIDAK
+CUST114,Sari Susanto,Wanita,31.0,,9200000.0,3.0,,Elektronik,E-wallet ,0.4,kg,,Ya
+CUST115,Siti Susanto,Perempuan,30.0,SURABAYA,4500000.0,9.0,-150000.0,Kecantikan,cod,1.5,kg,Tinggi,Ya
+CUST116,Eko Pratama,Pria,34.0,Surabaya,7100000.0,4.0,336000.0,Rumah Tangga,e-wallet,4.6,kg,Rendah,tidak
+CUST117,Citra Lestari,P,25.0,SURABAYA,11500000.0,3.0,480000.0,Makanan,Transfer Bank,2.6,kg,Sedang,TIDAK
+CUST118,Andi Wijaya,L,32.0,Surabaya,7600000.0,2.0,267000.0,Makanan,E-Wallet,3.8,kg,Rendah,Tidak
+CUST119,Andi Lestari,Laki-laki,,Mojokerto,10600000.0,11.0,2480000.0,rumah tangga,Transfer Bank,2400.0,g,Tinggi,Ya
+CUST120,Citra Kurniawan,PEREMPUAN,34.0,Malang,9400000.0,6.0,1243000.0,Fashion,Kartu Kredit,0.3,kg,Tinggi,Tidak
+CUST006,Hendra Susanto,laki-laki,,Surabaya,9000000.0,,758000.0, Rumah Tangga,,0.3,kg,Sedang,Ya
+CUST018,Dewi Susanto,Perempuan,31.0,Sidoarjo,14000000.0,7.0,811000.0,Makanan,Transfer Bank,1.4,kg,Tinggi,TIDAK
+CUST041,Anisa Lestari,Perempuan,21.0,Surabaya,5300000.0,8.0,1196000.0,Makanan,kartu kredit,4.9,kg,Rendah,Ya
+CUST078,Dina Lestari,Perempuan ,37.0,Mojokerto,5100000.0,3.0,229000.0,Elektronik,,1.9,kg,Rendah,Tidak
