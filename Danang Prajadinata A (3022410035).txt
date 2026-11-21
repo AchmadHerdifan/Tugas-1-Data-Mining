@@ -1,0 +1,134 @@
+==============================================================================
+DESKRIPSI STUDI KASUS — TUGAS 1 DATA PREPROCESSING
+Mata Kuliah Data Mining (Penambangan Data) 2026
+==============================================================================
+(Rename file ini menjadi: [NamaKamu]_[NIMKamu].txt sebelum dikirim ke partner)
+
+Judul Kasus : Analisis Perilaku Pelanggan Toko Online dan Prediksi Langganan Premium
+Dataset     : Dataset_Pelanggan_TokoOnline.csv
+Ukuran      : 124 baris x 14 variabel
+Sumber      : Data sintetis (dibuat dengan bantuan AI) untuk keperluan tugas
+
+------------------------------------------------------------------------------
+1. LATAR BELAKANG
+------------------------------------------------------------------------------
+Sebuah toko online yang beroperasi di wilayah Jawa Timur (Surabaya, Sidoarjo,
+Gresik, Malang, dan Mojokerto) menjual berbagai produk, mulai dari fashion,
+elektronik, makanan, kecantikan, hingga perlengkapan rumah tangga. Toko ini
+menawarkan paket langganan Premium berupa gratis ongkos kirim, diskon
+member, dan prioritas layanan.
+
+Selama ini promosi paket Premium dikirim ke seluruh pelanggan tanpa
+pemilahan, sehingga biayanya besar dan tingkat konversinya rendah. Manajemen
+ingin mengetahui profil pelanggan yang berpotensi berlangganan Premium agar
+promosi dapat diarahkan lebih tepat sasaran.
+
+Data pelanggan dikumpulkan dari sistem pencatatan transaksi dan formulir
+pendaftaran yang diisi manual oleh admin dan pelanggan. Karena proses
+pencatatan yang beragam tersebut, kualitas data belum bersih dan harus
+disiapkan (preprocessing) sebelum dapat dianalisis atau dimodelkan.
+
+------------------------------------------------------------------------------
+2. PERMASALAHAN BISNIS
+------------------------------------------------------------------------------
+1. Pelanggan dengan karakteristik seperti apa yang cenderung berlangganan
+   Premium?
+2. Apakah frekuensi belanja, pendapatan, dan tingkat kepuasan berhubungan
+   dengan keputusan berlangganan Premium?
+3. Apakah ada perbedaan perilaku belanja antarkota dan antarmetode
+   pembayaran?
+
+------------------------------------------------------------------------------
+3. TUJUAN ANALISIS
+------------------------------------------------------------------------------
+1. Membersihkan dan menyiapkan data pelanggan agar siap digunakan pada tahap
+   modeling (klasifikasi) di pertemuan berikutnya.
+2. Mengidentifikasi variabel yang paling relevan terhadap variabel target
+   Langganan_Premium melalui seleksi fitur.
+3. Menghasilkan dataset akhir yang bebas missing value, konsisten, dan
+   seluruhnya berformat numerik.
+
+------------------------------------------------------------------------------
+4. DESKRIPSI VARIABEL (14 VARIABEL)
+------------------------------------------------------------------------------
+No  Variabel             Tipe                 Keterangan
+--  -------------------  -------------------  --------------------------------
+1   ID_Pelanggan         Identitas (teks)     Kode unik pelanggan (CUST001, dst.)
+2   Nama                 Kategorik            Nama pelanggan
+3   Jenis_Kelamin        Kategorik nominal    Laki-Laki / Perempuan
+4   Usia                 Numerik (tahun)      Usia pelanggan
+5   Kota                 Kategorik nominal    Kota domisili: Surabaya, Sidoarjo,
+                                              Gresik, Malang, Mojokerto
+6   Pendapatan_Bulanan   Numerik (Rupiah)    Pendapatan pelanggan per bulan
+7   Frekuensi_Belanja    Numerik (kali)       Jumlah transaksi per bulan
+8   Total_Belanja        Numerik (Rupiah)    Total nilai belanja per bulan
+9   Kategori_Produk      Kategorik nominal    Produk yang paling sering dibeli:
+                                              Fashion, Elektronik, Makanan,
+                                              Kecantikan, Rumah Tangga
+10  Metode_Pembayaran    Kategorik nominal    Transfer Bank, E-Wallet, COD,
+                                              Kartu Kredit
+11  Berat_Paket          Numerik              Berat rata-rata paket; satuannya
+                                              dicatat pada kolom Satuan_Berat
+12  Satuan_Berat         Kategorik            kg atau g
+13  Tingkat_Kepuasan     Kategorik ordinal    Rendah < Sedang < Tinggi
+14  Langganan_Premium    Kategorik biner      Ya / Tidak (variabel target)
+
+Komposisi: 5 variabel numerik (Usia, Pendapatan_Bulanan, Frekuensi_Belanja,
+Total_Belanja, Berat_Paket), 8 variabel kategorik (Nama, Jenis_Kelamin, Kota,
+Kategori_Produk, Metode_Pembayaran, Satuan_Berat, Tingkat_Kepuasan,
+Langganan_Premium), dan 1 variabel identitas (ID_Pelanggan).
+
+------------------------------------------------------------------------------
+5. PANDUAN DOMAIN (ACUAN VALIDASI DATA)
+------------------------------------------------------------------------------
+Gunakan aturan berikut untuk menilai kewajaran data:
+- Usia pelanggan yang wajar        : 17 sampai 70 tahun
+- Frekuensi belanja per bulan      : 0 sampai 31 kali
+- Pendapatan bulanan               : kisaran jutaan rupiah per bulan; nilai
+                                     puluhan hingga ratusan juta untuk
+                                     pelanggan umum perlu dicurigai
+- Total belanja                    : tidak boleh negatif
+- Berat paket                      : seluruhnya harus dalam satu satuan (kg)
+- Penulisan kategori               : harus mengikuti nilai baku pada bagian 4
+
+------------------------------------------------------------------------------
+6. KONDISI DATA
+------------------------------------------------------------------------------
+Data sengaja dibuat belum bersih. Pada data terdapat permasalahan yang umum
+terjadi di dunia nyata dan sesuai materi Data Preprocessing, yaitu:
+- kesalahan entri / salah ketik dan penulisan kategori yang tidak konsisten,
+- perbedaan huruf besar-kecil serta spasi berlebih (redundant whitespace),
+- nilai yang mustahil (impossible values),
+- outlier,
+- perbedaan satuan ukur dalam satu kolom,
+- baris data duplikat,
+- missing value pada variabel numerik maupun kategorik.
+Tugas kamu adalah menemukan dan menangani seluruh masalah tersebut.
+
+------------------------------------------------------------------------------
+7. ALUR ANALISIS YANG DIHARAPKAN
+------------------------------------------------------------------------------
+1. Retrieving data   : memeriksa struktur, tipe data, statistik deskriptif,
+                        dan missing value.
+2. Cleansing         : merapikan teks, memperbaiki kategori, menangani nilai
+                        mustahil, menyeragamkan satuan, menghapus duplikat,
+                        menangani outlier, dan imputasi missing value
+                        (gunakan statistik deskriptif untuk memilih metode).
+3. Transforming      : normalisasi, encoding, dan diskretisasi.
+4. Integrating       : appending dan penambahan fitur hasil agregasi.
+5. Reduksi dimensi   : seleksi fitur terhadap Langganan_Premium dan PCA.
+
+------------------------------------------------------------------------------
+8. KELUARAN YANG DIHARAPKAN
+------------------------------------------------------------------------------
+- Dataset bersih (CSV) tanpa missing value dan tanpa duplikat.
+- Dataset siap modeling (seluruh kolom numerik).
+- Daftar fitur yang paling relevan terhadap Langganan_Premium.
+- Laporan preprocessing yang menjelaskan setiap tahap (input - proses -
+  output) dalam format PDF.
+
+------------------------------------------------------------------------------
+9. CATATAN
+------------------------------------------------------------------------------
+Seluruh data dalam dataset ini fiktif dan tidak merepresentasikan pelanggan
+atau toko online yang sebenarnya.
